@@ -1,0 +1,17 @@
+{
+  "name": "phantauth-faker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "faker": "^4.1.0"
+  }
+}

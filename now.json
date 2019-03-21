@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "phantauth-faker",
+  "alias": ["phantauth-faker","faker.phantauth.ml","faker.phantauth.ga"],
+  "public": false,
+  "builds": [
+    { "src": "faker-logo.svg", "use": "@now/static" },
+    { "src": "index.html", "use": "@now/static" },
+    { "src": "index.js", "use": "@now/node-server" }
+    ],
+  "routes": [{
+    "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+    },
+    "src": "/api/.*",
+    "dest": "/index.js"
+    }]
+}
