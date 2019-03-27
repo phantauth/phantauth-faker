@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "phantauth-faker",
-  "alias": ["phantauth-faker","faker.phantauth.ml","faker.phantauth.ga"],
+  "alias": ["phantauth-faker","faker.phantauth.net", "faker.phantauth.ga", "faker.phantauth.tk", "faker.phantauth.ml"],
   "public": false,
   "builds": [
     { "src": "faker-logo.svg", "use": "@now/static" },
